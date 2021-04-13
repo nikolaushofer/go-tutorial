@@ -16,9 +16,13 @@ import (
 var a App
 
 func TestMain(m *testing.M) {
+	//	a.Initialize(
+	//		"go-app",
+	//		"UMErR4NLBjRJqYEUaUs0qw7Ap",
+	//		"postgres")
 	a.Initialize(
-		"go-app",
-		"UMErR4NLBjRJqYEUaUs0qw7Ap",
+		"postgres",
+		"",
 		"postgres")
 
 	ensureTableExists()
